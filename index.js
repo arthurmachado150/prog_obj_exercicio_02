@@ -13,6 +13,7 @@ do{
     console.log('|--- 1 = Prisma Triangular -------------------------------------|')
     console.log('|--- 2 = Pirâmide Triangular -----------------------------------|')
     console.log('|---------------------------------------------------------------|')
+    console.log('\n')
 
     op = Number(rl.question(`Qual a sua opcao: `))
     console.log(op)
