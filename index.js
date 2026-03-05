@@ -25,8 +25,8 @@ do{
         let areaBasePrisma = prisma.calcularAreaBasePrismaTri()
         let volumePrisma = prisma.calcularVolumePrismaTri()
 
-        console.log(`A Área da Base do prisma triangular de Lado ${l} é: ${areaBasePrisma.toFixed(3)}`)
-        console.log(`O Volume do prisma triangular de Área da Base ${areaBasePrisma.toFixed(3)} e Altura ${h} é: ${volumePrisma.toFixed(3)}`)
+        console.log(`A Área da Base do prisma triangular de Lado ${l} é: ${areaBasePrisma.toFixed(3)} cm²`)
+        console.log(`O Volume do prisma triangular de Área da Base ${areaBasePrisma.toFixed(3)} e Altura ${h} é: ${volumePrisma.toFixed(3)} cm³`)
     }else if(op === 2){
         let l = Number(rl.question(`Qual o valor do lado: `))
         let h = Number(rl.question(`Qual o valor da altura: `))
@@ -34,8 +34,8 @@ do{
         let areaBasePiramide = piramide.calcularAreaBasePiramideTri()
         let volumePiramide = piramide.calcularVolumePiramideTri()
 
-        console.log(`A Área da Base do prisma triangular de Lado ${l} é: ${areaBasePiramide.toFixed(3)}`)
-        console.log(`O Volume do prisma triangular de Área da Base ${areaBasePiramide.toFixed(3)} e Altura ${h} é: ${volumePiramide.toFixed(3)}`)
+        console.log(`A Área da Base do prisma triangular de Lado ${l} é: ${areaBasePiramide.toFixed(3)} cm²`)
+        console.log(`O Volume do prisma triangular de Área da Base ${areaBasePiramide.toFixed(3)} e Altura ${h} é: ${volumePiramide.toFixed(3)} cm³`)
     }else{
         console.log(` Opção Inválida! Dijite novamente! `)
     }
